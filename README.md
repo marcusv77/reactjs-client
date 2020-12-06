@@ -1,3 +1,5 @@
+## RECEIVING UPDATES
+
 <p align="center">
    <img src="./image/ReactJs.png" alt="ReactJs" width="400"/>
 </p>
