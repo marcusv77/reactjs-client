@@ -4,16 +4,16 @@
 
 <p align="center">	
    <a href="https://www.linkedin.com/in/marcus-fernandes-f77/">
-      <img alt="Marcus Fernandes" src="https://img.shields.io/badge/marcus-fernandes-f77?style=flat&logo=Linkedin&logoColor=30416A" />
+      <img alt="Marcus Fernandes" src="https://img.shields.io/badge/Marcus-61dafb?style=flat&logo=linkedin&labelColor=61dafb" />
    </a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/marcusv77/api-rest?color=30416A">
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-30416A">
+  <img alt="Repository size" src=https://img.shields.io/github/repo-size/marcusv77/reactjs-client?color=61dafb&label=Reso%20size>
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-61dafb">
 </p>
 
 
 ## Features
 
-* Client application and RESTful API for creating a CRUD interface.
+* Client application consuming RESTful API.
 * Simple scope project to show the mastery of the technologies listed below, following the commands proposed by the DTI company.
 
 ---
@@ -31,35 +31,21 @@ This project was made using the follow technologies:
 
 * [Typescript](https://www.typescriptlang.org/)      
 * [React](https://reactjs.org/)      
-* [Node](https://nodejs.org/pt-br/)       
-* [Express](https://expressjs.com/)      
+* [Material-UI](https://material-ui.com/pt/)       
+* [Styled-Components](https://styled-components.com/)      
 
 ---
 
 ## How to run
 ```bash
 # Clone Repository
-$ git clone https://github.com/marcusv77/api-client.git
+$ git clone https://github.com/marcusv77/reactjs-client.git
 ```
-### Run API
-
-```bash
-# Go to server folder
-$ cd api-rest/api
-
-# Install Dependencies
-$ yarn install or npm install
-
-# Run Aplication
-$ yarn start or npm start
-```
-Access API at http://localhost:3333/
-
 ### Run Web Project
 
 ```bash
 # Go to web folder
-$ cd api-rest/client
+$ cd reactjs-client
 
 # Install Dependencies
 $ yarn install or npm install
