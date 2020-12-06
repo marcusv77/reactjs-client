@@ -8,7 +8,7 @@
    <a href="https://www.linkedin.com/in/marcus-fernandes-f77/">
       <img alt="Marcus Fernandes" src="https://img.shields.io/badge/Marcus-61dafb?style=flat&logo=linkedin&labelColor=61dafb" />
    </a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/marcusv77/reactjs-client?color=61dafb&label=Reso%20size">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/marcusv77/reactjs-client?color=61dafb&label=Repo%20size">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-61dafb">
 </p>
 
