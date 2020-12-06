@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="./image/React.png" alt="React" width="400"/>
+   <img src="./image/ReactJs.png" alt="ReactJs" width="400"/>
 </p>
 
 <p align="center">	
