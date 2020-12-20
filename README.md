@@ -16,7 +16,7 @@
 ## Features
 
 * Client application consuming RESTful API.
-* Simple scope project to show the mastery of the technologies listed below, following the commands proposed by the DTI company.
+* Simple scope project to show the mastery of the technologies listed below.
 
 ---
 
