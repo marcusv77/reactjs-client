@@ -24,7 +24,7 @@
 
 A prototype was made to guide the development of the application, click on the link to view the layout:
 
-* [Figma](https://www.figma.com/file/uMKs0lXrVbmK06mprE0QuR/Crud-Clients?node-id=0%3A1)
+* [Figma](https://www.figma.com/file/uMKs0lXrVbmK06mprE0QuR/simple-crud)
 
 ---
 
