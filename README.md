@@ -43,13 +43,13 @@ This project was made using the follow technologies:
 ## How to run
 ```bash
 # Clone Repository
-$ git clone https://github.com/marcusv77/reactjs-client.git
+$ git clone https://github.com/marcusv77/reactjs-simpleCRUD.git
 ```
 ### Run Web Project
 
 ```bash
 # Go to web folder
-$ cd reactjs-client
+$ cd reactjs-simpleCRUD
 
 # Install Dependencies
 $ yarn install or npm install
