@@ -32,7 +32,7 @@ A prototype was made to guide the development of the application, click on the l
 This project was made using the follow technologies:
 
 * [Typescript](https://www.typescriptlang.org/)      
-* [React](https://reactjs.org/)      
+* [ReactJs](https://reactjs.org/)      
 * [Material-UI](https://material-ui.com/pt/)       
 * [Styled-Components](https://styled-components.com/)      
 
