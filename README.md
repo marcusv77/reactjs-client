@@ -34,7 +34,9 @@ This project was made using the follow technologies:
 * [Typescript](https://www.typescriptlang.org/)      
 * [ReactJs](https://reactjs.org/)      
 * [Material-UI](https://material-ui.com/pt/)       
-* [Styled-Components](https://styled-components.com/)      
+* [Styled-Components](https://styled-components.com/)
+* [HTML](https://html.com/)       
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)  
 
 ---
 
