@@ -1,33 +1,20 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
+import {IClient} from '../../services/client';
 import {Table} from '../global';
 import Line from './Line';
 import LabelLine from './LabelLine';
 
-import {listClients, IClient} from  '../../services/client';
+interface TableProps{
+  array: IClient[];
+}
 
-const TableContent = () => {
-
-  const [clients, setClients] = useState<IClient[]>([]);
-
-  useEffect(() => {
-    async function handleList(){
-      const list = await listClients();
-      setClients(list);
-    }
-    handleList();
-    //set array with context
-  }, [setClients]);
-
+export default function TableContent({array}:TableProps) {
   return (
     <Table>
-      <LabelLine />
-
-      {clients.map((client) => (
+      {array?.length !== 0 && <LabelLine />}
+      {array.map((client) => (
         <Line key={client.id} client={client} />
       ))}
-
     </Table>
   );
 }
-
-export default TableContent;

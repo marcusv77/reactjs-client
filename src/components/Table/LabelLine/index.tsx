@@ -1,18 +1,38 @@
 import React from 'react';
-import Label from '../Label';
-import './styles.css';
+import {Line, LabelLine, Label} from './styles';
 
-const LabelLine = () => {
+export default function TableLabel() {
+  const data = [
+    {
+      id: 1,
+      topic: 'Nome',
+      hide: false
+    },
+    {
+      id: 2,
+      topic: 'Email',
+      hide: true
+    },
+    {
+      id: 3,
+      topic: 'Telefone',
+      hide: true
+    }
+  ];
 
   return (
-    <div className="labelline">
-      <div className="tableline">
-        <Label name="Nome" />
-        <Label name="Email" className="hide" />
-        <Label name="Telefone" className="hide" />
-      </div>
-    </div>
+    <Line>
+      <LabelLine>
+        {data.map((item) => (
+          <Label key={item.id}>
+            {(item.hide?
+             <p className="hide">{item.topic}</p>
+             :
+             <p>{item.topic}</p>
+            )}
+          </Label>
+        ))}
+      </LabelLine>
+    </Line>
   );
 }
-
-export default LabelLine;

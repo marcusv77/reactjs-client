@@ -1,25 +1,10 @@
 import React from 'react';
-import {Header, HeaderText} from '../global';
-import ButtonTransparent from '../ButtonTransparent';
+import {Container, Text} from './styles';
 
-interface ContainerProps{
-  title: string;
-  buttonContent: string;
-  onClick?: (any?:any) => void;
-}
-
-const HeaderSection = ({title, buttonContent, onClick}:ContainerProps) => {
-
-  const exist = ((buttonContent==='SALVAR') || ( buttonContent==='NOVO') || ( buttonContent==='CADASTRAR'))? true : false;
-
+export default function Header() {
   return (
-    <Header>
-      <HeaderText>{title}</HeaderText>
-      {exist&&
-        <ButtonTransparent buttonContent={buttonContent} onClick={onClick} />
-      }
-    </Header>
+    <Container>
+      <Text>GERÊNCIA DE FLUXO</Text>
+    </Container>
   );
 }
-
-export default HeaderSection;

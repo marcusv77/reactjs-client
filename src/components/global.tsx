@@ -56,11 +56,6 @@ export const Obs = styled.p`
   color: #FFFFFF;
 `;
 
-export const HeaderText = styled(SubTitle)`
-  text-align: left;
-  padding: 0px;
-`;
-
 //CONTAINERS
 
 export const Container = styled.div`
@@ -80,16 +75,6 @@ export const Section = styled.div`
   flex: 1;
   flex-direction: row;
   padding: 30px;
-`;
-
-export const Header = styled(Section)`
-  align-items: center;
-  justify-content: space-between;
-  background-color: #27293D;
-
-  @media (max-width: 420px){
-    padding: 20px;
-  }
 `;
 
 export const Table = styled.div`

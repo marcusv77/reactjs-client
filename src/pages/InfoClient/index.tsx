@@ -84,7 +84,6 @@ function Client() {
 
   return (
     <div className="client">
-      <Header title={title} buttonContent={buttonContent} onClick={() => actionFunction} />
       <Container>
         <a onClick={handleBack}>Voltar</a>
         <div className="couple">

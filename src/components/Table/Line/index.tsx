@@ -9,45 +9,34 @@ interface PropsClient{
   client: IClient;
 }
 
-const LineContent = ({client}:PropsClient) => {
-
+export default function LineContent({client}:PropsClient) {
   const history = useHistory();
 
   const handleView = useCallback(async (client:IClient)=> {
-    const data = {
-      client,
-      action: "VISUALIZAR"
-    }
-    history.push('/client', {data});
+    history.push('/client', {client});
   },[history]);
 
   const handleEdit = useCallback(async (client:IClient)=> {
-    const data = {
-      client,
-      action: "SALVAR"
-    }
-    history.push('/client', {data});
+    history.push('/client', {client});
   },[history]);
 
   async function handleDelete(client: IClient){
     const clientDeleted = await deleteClient(client);
-    console.log(clientDeleted);
-    //set array
+    alert("O cliente " + client.name + " (ID: " + clientDeleted + ") foi removido.")
+    //update array
   }
 
   return (
     <div className="line">
-      <a onClick={() => handleView(client)} className="tableline">
+      <button className="tableline" onClick={() => handleView(client)}>
         <Column name={client?.name} />
         <Column name={client?.email} className="hide" />
         <Column name={client?.phone} className="hide" />
-      </a>
+      </button>
       <div className="icons">
-        <a onClick={() => handleEdit(client)}><Edit /></a>
-        <a onClick={() => handleDelete(client)}><Remove /></a>
+        <button onClick={() => handleEdit(client)}><Edit /></button>
+        <button onClick={() => handleDelete(client)}><Remove /></button>
       </div>
     </div>
   );
 }
-
-export default LineContent;
